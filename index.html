@@ -131,6 +131,29 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 <style>
 
+/* Styles pour les téléphones */
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+/* Styles pour les tablettes */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .container {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
+/* Styles pour les ordinateurs */
+@media (min-width: 1025px) {
+  .container {
+    width: 80%;
+    padding: 30px;
+  }
+}
 
         
 
@@ -388,9 +411,10 @@ background: red;
             <div class="col-md-4 col-xs-4 about-poleft t2">
                 <div class="about_img"><img src="./img/07.JPG" alt="">
                   <h5>Mr.Ndombi-D'otala</h5>
-                  
+                        <div class="about_opa">
                     <p>Agents immobilliers</p>
-                    
+                     <ul class="fb_icons2 text-center">
+                      
                   </div>
                 </div>
             </div>
