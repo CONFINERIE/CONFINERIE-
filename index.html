@@ -131,6 +131,17 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 <style>
 
+        .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex: 1 1 300px; /* s'adapte à au moins 300px */
+  margin: 10px;
+}
+
+
 /* Styles pour les téléphones */
 @media (max-width: 600px) {
   .container {
