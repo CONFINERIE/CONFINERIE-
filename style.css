@@ -699,56 +699,155 @@ section h2 {
   margin-bottom: 10px;
 }
 
-/* Responsive Design */
-
-/* Phones */
-@media only screen and (max-width: 600px) {
+/* Mobile devices (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+  /* Adjust font sizes, padding, and margins for mobile devices */
   body {
     font-size: 14px;
   }
-  header {
+  .website-header {
     padding: 10px;
   }
-  header h1 {
-    font-size: 18px;
+  .website-header img {
+    width: 30px;
+    height: 30px;
   }
-  section {
-    padding: 10px;
+  .social-icons {
+    text-align: center;
+  }
+  .breaking-news-section {
+    flex-direction: column;
+  }
+  #btext {
+    font-size: 14px;
+  }
+  .about-top {
+    padding: 2em 0;
+  }
+  h3.w3l-title {
+    font-size: 1.5em;
+  }
+  .w3layouts_header p {
+    font-size: 1.2em;
+  }
+  .services-grid {
+    flex-direction: column;
+  }
+  .services-grid h5 {
+    font-size: 1.2em;
+  }
+  .team-w3l-grid {
+    flex-direction: column;
+  }
+  .team-w3l-grid h3 {
+    font-size: 1.2em;
+  }
+  .contact .contact-content {
+    flex-direction: column;
+  }
+  .contact .contact-content .column {
+    width: 100%;
   }
 }
 
-/* Tablets */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
+/* Tablets (min-width: 481px and max-width: 768px) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  /* Adjust font sizes, padding, and margins for tablets */
   body {
     font-size: 16px;
   }
-  header {
-    padding: 15px;
+  .website-header {
+    padding: 20px;
   }
-  header h1 {
-    font-size: 20px;
+  .website-header img {
+    width: 40px;
+    height: 40px;
   }
-  section {
-    padding: 15px;
+  .social-icons {
+    text-align: right;
+  }
+  .breaking-news-section {
+    flex-direction: row;
+  }
+  #btext {
+    font-size: 16px;
+  }
+  .about-top {
+    padding: 3em 0;
+  }
+  h3.w3l-title {
+    font-size: 2em;
+  }
+  .w3layouts_header p {
+    font-size: 1.5em;
+  }
+  .services-grid {
+    flex-direction: row;
+  }
+  .services-grid h5 {
+    font-size: 1.5em;
+  }
+  .team-w3l-grid {
+    flex-direction: row;
+  }
+  .team-w3l-grid h3 {
+    font-size: 1.5em;
+  }
+  .contact .contact-content {
+    flex-direction: row;
+  }
+  .contact .contact-content .column {
+    width: 50%;
   }
 }
 
-/* Desktops */
-@media only screen and (min-width: 1025px) {
+/* Desktops (min-width: 769px) */
+@media only screen and (min-width: 769px) {
+  /* Adjust font sizes, padding, and margins for desktops */
   body {
     font-size: 18px;
   }
-  header {
-    padding: 20px;
+  .website-header {
+    padding: 30px;
   }
-  header h1 {
-    font-size: 24px;
+  .website-header img {
+    width: 50px;
+    height: 50px;
   }
-  section {
-    padding: 20px;
+  .social-icons {
+    text-align: right;
+  }
+  .breaking-news-section {
+    flex-direction: row;
+  }
+  #btext {
+    font-size: 18px;
+  }
+  .about-top {
+    padding: 4em 0;
+  }
+  h3.w3l-title {
+    font-size: 2.5em;
+  }
+  .w3layouts_header p {
+    font-size: 2em;
+  }
+  .services-grid {
+    flex-direction: row;
+  }
+  .services-grid h5 {
+    font-size: 2em;
+  }
+  .team-w3l-grid {
+    flex-direction: row;
+  }
+  .team-w3l-grid h3 {
+    font-size: 2em;
+  }
+  .contact .contact-content {
+    flex-direction: row;
+  }
+  .contact .contact-content .column {
+    width: 50%;
   }
 }
-
-
-
-
