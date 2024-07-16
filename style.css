@@ -840,3 +840,36 @@ section .title::after{
 
 
 
+
+
+
+
+
+* Media queries for responsiveness */
+@media (max-width: 768px) {
+    header .navbar-nav {
+        flex-direction: column;
+    }
+
+    .services .vertical-text, .services .da, .services .do {
+        width: 100%;
+    }
+
+    .portfolio-w3ls .gallery-grid {
+        width: 50%;
+    }
+
+    .contact .column {
+        flex: 0 1 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .portfolio-w3ls .gallery-grid {
+        width: 100%;
+    }
+}
+
+
+
+
